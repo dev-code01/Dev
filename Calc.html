@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <title>Simple Calculator</title>
+            <link rel="stylesheet" href="calc.css">
+        </head>
+        <body>
+            <script src="calc.js"></script>
+            <div id="case">
+                <h1>Calculator</h1>
+                <div id="display">
+                    <input type="text" readonly value="" placeholder="0" id="dis">
+                </div>
+                <div id="btn">
+                    <button onclick="push('7')" class="bt" id="num">7</button>
+                    <button onclick="push('8')" class="bt" id="num">8</button>
+                    <button onclick="push('9')" id="num" class="bt">9</button>
+
+                    <button onclick="op('/')" id="opr" class="bt">/</button>
+
+                    <button onclick="push('4')" id="num" class="bt">4</button>
+                    <button onclick="push('5')" id="num" class="bt">5</button>
+                    <button onclick="push('6')" id="num" class="bt">6</button>
+
+                    <button onclick="op('*')" id="opr" class="bt">*</button>
+
+                    <button onclick="push('1')" id="num" class="bt">1</button>
+                    <button onclick="push('2')" id="num" class="bt">2</button>
+                    <button onclick="push('3')" id="num" class="bt">3</button>
+
+                    <button onclick="op('-')" id="opr" class="bt">-</button>
+
+                    <button onclick="push('.')" id="num" class="bt">.</button>
+                    <button onclick="push('0')" id="num" class="bt">0</button>
+                    <button onclick="res()" id="=" class="bt">=</button>
+
+                    <button onclick="op('+')" id="opr" class="bt">+</button>
+
+                    <button onclick="clr()" id="C" class="btn">C</button>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
